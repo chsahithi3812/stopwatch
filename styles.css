@@ -1,0 +1,44 @@
+
+body{
+    background: url(bg.PNG)no-repeat center center/cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.container{
+    width: 60%;
+    height: 250px;
+    background-color: #ffff;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+#timer{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 30px;
+}
+.buttons{
+    text-align: center;
+    margin-top :40px; 
+}
+button{
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+}
+#play{
+    
+    background-color: green;
+    padding: 5px;
+}
+#reset{
+    background-color: red;
+    padding: 5px;
+}
+#pause{
+ background-color: orange;
+ padding: 5px;
+}
